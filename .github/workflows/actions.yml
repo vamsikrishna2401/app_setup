@@ -12,7 +12,7 @@ env:
 jobs:
   test:
     runs-on: ubuntu-latest
-      steps:
+    steps:
         - name: user created
           run: echo "app created by user $username "
           sleep: 5
