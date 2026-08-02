@@ -16,7 +16,6 @@ jobs:
       - name: user created
         run: |
           echo "app created by user $username "
-          sleep: 5
         
       - name: app name
         run: echo " name of the application is $app_name " 
