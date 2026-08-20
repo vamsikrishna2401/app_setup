@@ -21,6 +21,12 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Debug paths
+        run: |
+          pwd
+          ls -R
+
+
       - name: install dependencies
         run: npm install
 
