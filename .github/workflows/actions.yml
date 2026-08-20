@@ -6,7 +6,7 @@ on:
       - main
 
 concurrency:
-  group: dependencies
+  group: dependencies-actions
   cancel-in-progress: false
 
 env:

@@ -6,7 +6,7 @@ on:
       - main
 
 concurrency:
-  group: dependencies
+  group: dependencies-node
   cancel-in-progress: false
 
 jobs:
